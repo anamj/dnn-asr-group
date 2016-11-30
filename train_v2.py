@@ -104,12 +104,14 @@ def main():
             #Save=tf.train.Saver()
             #save_path=Save.save(sess,"train_20h_model.ckpt")
     #Plot
+    array=[0.35,0.40,0.45,0.50,0.55]
     test_fig = plt.figure()
     ax = test_fig.add_subplot(111)
-    ax.plot(x_number_of_epoch,array_validation_accuracy,label="accuracy")
+    ax.plot(x_number_of_epoch,array_validation_accuracy,'r',label="layer size 256")
+    ax.plot(x_number_of_epoch,array,'b',label="prueba")
     ax.set_xlabel('epoch')
     ax.set_ylabel('Accuracy')
-    ax.get_legend()
+    ax.legend()
     test_fig.savefig('accuracy_plot.png')
 
 if __name__ == '__main__':
