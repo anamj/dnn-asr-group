@@ -1,0 +1,33 @@
+You are now at epoch 0!
+The accuracy of validation part is: 0.228453
+You are now at epoch 1!
+The accuracy of validation part is: 0.281744
+You are now at epoch 0!
+The accuracy of validation part is: 0.267378
+You are now at epoch 1!
+The accuracy of validation part is: 0.333161
+You are now at epoch 0!
+The accuracy of validation part is: 0.312726
+You are now at epoch 1!
+The accuracy of validation part is: 0.367861
+You are now at epoch 0!
+The accuracy of validation part is: 0.331844
+You are now at epoch 1!
+The accuracy of validation part is: 0.381427
+You are now at epoch 0!
+The accuracy of validation part is: 0.341388
+You are now at epoch 1!
+The accuracy of validation part is: 0.389137
+You are now at epoch 0!
+The accuracy of validation part is: 0.348875
+You are now at epoch 1!
+The accuracy of validation part is: 0.394031
+You are now at epoch 0!
+The accuracy of validation part is: 0.353789
+You are now at epoch 1!
+The accuracy of validation part is: 0.395662
+You are now at epoch 0!
+The accuracy of validation part is: 0.356139
+You are now at epoch 1!
+The accuracy of validation part is: 0.398975
+

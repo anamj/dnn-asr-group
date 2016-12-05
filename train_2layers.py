@@ -54,8 +54,8 @@ def forward_propagation(X,w1,w2,b1,b2):
 def main():
     feature_dimension=trainData.shape[1]
     result_dimension=trainLabel.shape[1]
-    #hidden_layer_size=256
     
+    out= ""
     layers = [50,100,200,300,400,500,600,700]
 
     results=[]
@@ -86,7 +86,7 @@ def main():
                 sess.run(init_op)
                 batch_size=1000
                 number_of_batch=len(trainData)//batch_size
-                number_of_epoch=15
+                number_of_epoch=2
 
                 for epoch in range(number_of_epoch):
                     #no shuffle currently
@@ -97,7 +97,8 @@ def main():
                     
                     pre_result=sess.run(prediction,feed_dict={input_data:valiData})
                     validation_accuracy=np.mean(pre_result==np.argmax(valiLabel,1))
-
+                    out+=("You are now at epoch %d!\n" % epoch)
+                    out+=("The accuracy of validation part is: %f\n" % validation_accuracy) 
                     print("You are now at epoch %d!" % epoch)
                     print("The accuracy of validation part is: %f" % validation_accuracy)
                     print("Task over. Model has been built.")
@@ -122,8 +123,13 @@ def main():
     ax.plot(x_number_of_epoch,results[6],'k',label="layer size 600")
     ax.set_xlabel('Number of epoch')
     ax.set_ylabel('Accuracy')
-    ax.legend()
+    ax.set_title('FNN with 2 hidden layers')
+    ax.legend(loc=4)
     test_fig.savefig('accuracy_plot_2layers.png')
+    
+    #This saves to a file "output.txt" the results
+    with open("output_2layers.txt",'w') as result:
+        result.write(out + '\n')
 
 if __name__ == '__main__':
     main()

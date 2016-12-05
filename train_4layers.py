@@ -45,13 +45,15 @@ def initial_bias(shape):
     return tf.Variable(b)
 
 #suppose two layers, output doesn't use softmax
-def forward_propagation(X,w1,w2,w3,b1,b2,b3):
+def forward_propagation(X,w1,w2,w3,w4,b1,b2,b3,b4):
     h1=tf.matmul(X,w1)+b1
     y1=tf.nn.sigmoid(h1)
     h2=tf.matmul(y1,w2)+b2
     y2=tf.nn.sigmoid(h2)
     h3=tf.matmul(y2,w3)+b3
-    return h3
+    y3=tf.nn.sigmoid(h3)
+    h4=tf.matmul(y3,w4)+b4
+    return h4
     
 #this condition outcome is form of [0,0,0,0,0,...1,0...]
 def main():
@@ -82,14 +84,16 @@ def main():
             b1=initial_bias(hidden_layer_size)
             w2=initial_weights((hidden_layer_size,hidden_layer_size))
             b2=initial_bias(hidden_layer_size)
-            w3=initial_weights((hidden_layer_size,result_dimension))
-            b3=initial_bias(result_dimension)
+            w3=initial_weights((hidden_layer_size,hidden_layer_size))
+            b3=initial_bias(hidden_layer_size)
+            w4=initial_weights((hidden_layer_size,result_dimension))
+            b4=initial_bias(result_dimension)
             
             #forward propagation
-            y3=forward_propagation(input_data,w1,w2,w3,b1,b2,b3)
-            prediction=tf.argmax(y3,1)
+            y4=forward_propagation(input_data,w1,w2,w3,w4,b1,b2,b3,b4)
+            prediction=tf.argmax(y4,1)
             #backward propagation
-            cost=tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y3,output_data))
+            cost=tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y4,output_data))
             optimizer=tf.train.AdamOptimizer()
             minimize=optimizer.minimize(cost)
             #Run our train optimization in session
@@ -98,7 +102,7 @@ def main():
                 sess.run(init_op)
                 batch_size=1000
                 number_of_batch=len(trainData)//batch_size
-                number_of_epoch=15
+                number_of_epoch=25
 
                 for epoch in range(number_of_epoch):
                     #no shuffle currently
@@ -135,13 +139,14 @@ def main():
     ax.plot(x_number_of_epoch,results[6],'k',label="layer size 700")
     ax.set_xlabel('Number of epoch')
     ax.set_ylabel('Accuracy')
-    ax.set_title('FNN with 3 hidden layers')
+    ax.set_title('FNN with 4 hidden layers')
     ax.legend(loc=4)
-    test_fig.savefig('accuracy_plot_3layers.png')
+    test_fig.savefig('accuracy_plot_4layers.png')
     
     #This saves to a file "output.txt" the results
-    with open("output_3layers.txt",'w') as result:
+    with open("output_4layers.txt",'w') as result:
         result.write(out + '\n')
 
 if __name__ == '__main__':
     main() 
+
