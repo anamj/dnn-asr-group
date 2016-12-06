@@ -1,0 +1,359 @@
+# lattice-scale --inv-acoustic-scale=17 "ark:gunzip -c gmm_recog/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- | lattice-best-path --word-symbol-table=mono/graph/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- mono/graph/words.txt | cat > gmm_recog/scoring_kaldi/penalty_1.0/17.txt 
+# Started at Mon Dec  5 17:10:00 EET 2016
+#
+lattice-scale --inv-acoustic-scale=17 'ark:gunzip -c gmm_recog/lat.*.gz|' ark:- 
+lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- 
+lattice-best-path --word-symbol-table=mono/graph/words.txt ark:- ark,t:- 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0001304-0002346, best cost 242.278 + 6228.15 = 6470.42 over 1040 frames.
+AlGore_2009-0001304-0002346 this is like seven demonstrated your concept which for most of the last three billion years has been the size of the lower forty eight states has grown by forty percent 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0002346-0004004, best cost 369.59 + 9935.45 = 10305 over 1656 frames.
+AlGore_2009-0002346-0004004 but this understates the seriousness of this particular problem because it doesn't show the thickness of the ice the arctic icecap is in a sense of the beating heart of the global climate system because that's where the democrats things about the next slide show you will be 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0004004-0005268, best cost 267.221 + 7607.28 = 7874.5 over 1262 frames.
+AlGore_2009-0004004-0005268 rapid transport of what happened over the last twenty five years the prices more contract the s.e.c. inexpensive with or without a genuine somewhere in the contracts in summer 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0005268-0006029, best cost 176.295 + 4589.01 = 4765.3 over 759 frames.
+AlGore_2009-0005268-0006029 and the so called to minimize five years or older the system as we blocked the layout of the body here 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0006260-0006905, best cost 128.374 + 3811.95 = 3940.32 over 643 frames.
+AlGore_2009-0006260-0006905 in twenty five years it's all numbers suggest this is a problem because the warming 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0006905-0008633, best cost 408.295 + 10533.1 = 10941.4 over 1726 frames.
+AlGore_2009-0006905-0008633 he stopped the frozen ground around the arctic ocean where there's a massive amount of frozen carbon which would force the tournament that made by microbes compared to be talking about global warming pollution in the atmosphere that amount to double its weaknesses tipping point 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0008633-0009790, best cost 264.745 + 7033.94 = 7298.69 over 1155 frames.
+AlGore_2009-0008633-0009790 already socialism lasted methane is actively between about one percent to the water from the university of alaska without would not need another colleague last month 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0011068-0011830, best cost 164.989 + 4502.98 = 4667.97 over 760 frames.
+AlGore_2009-0011068-0011830 he said that the question is whether we will be one reason is the smallest the city's subway one from the north 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0011830-0012659, best cost 176.818 + 4719.32 = 4896.14 over 827 frames.
+AlGore_2009-0011830-0012659 this is an annual healthy rather than the volumes are much more for the very first thing you see the southwest 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0012659-0013511, best cost 174.076 + 4874.91 = 5048.99 over 850 frames.
+AlGore_2009-0012659-0013511 we wanted to know how sea level rises on land based ice melting this is where everything is also increasing rapidly 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0013511-0014534, best cost 270.061 + 6262.25 = 6532.31 over 1021 frames.
+AlGore_2009-0013511-0014534 at the other end of the planet antarctica towards massive ice on the planet was mad scientist already part time and is now a negative icebound and west antarctica 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0014534-0015409, best cost 193.517 + 5370.6 = 5564.11 over 873 frames.
+AlGore_2009-0014534-0015409 probably possibility i was is tightly wrapped up in this building as people that we see conceivable that is true 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0015409-0016856, best cost 355.967 + 8938.58 = 9294.55 over 1445 frames.
+AlGore_2009-0015409-0016856 the minimalist rewards maximize the top you see you later with a few years ago glaciers we personable people in the world electric more vulnerable people in the end is this glacier is a source of drinking water for the city 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0016856-0018678, best cost 421.561 + 10934.1 = 11355.7 over 1820 frames.
+AlGore_2009-0016856-0018678 but also increase but when they go away so that much of the drinking water in california there's the four percent decline in the sierra snowpack assisting reservoirs and production system rather more serious is trying to round the world has led to a dramatic increase in force 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0018678-0020516, best cost 366.748 + 11021.3 = 11388.1 over 1836 frames.
+AlGore_2009-0018678-0020516 and the disastrous around the world have been increasing at an absolutely extraordinary an unprecedented rate or congressmen in the last three years as in the previous seventy five this is a completely unsustainable and if you look at it in the context of history you can see 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0020516-0020955, best cost 30.7144 + 2363.79 = 2394.51 over 437 frames.
+AlGore_2009-0020516-0020955 what the system 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0020955-0021791, best cost 190.311 + 5006.19 = 5196.5 over 834 frames.
+AlGore_2009-0020955-0021791 in the last five years without a seventy million tons of c o two every twenty four hours with a billion times every day to the oceans 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0021791-0022916, best cost 275.853 + 6903.31 = 7179.17 over 1123 frames.
+AlGore_2009-0021791-0022916 look carefully at the revenues from the survey from the americas extending westwood and on either side of the indian subcontinent brothers they went to the police department in the oceans 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0022916-0023668, best cost 168.594 + 4642.07 = 4810.66 over 750 frames.
+AlGore_2009-0022916-0023668 the biggest single cause of global warming along with deforestation which is what percentage of the burning of fossil fuels all the product 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0023668-0025415, best cost 384.393 + 10584.6 = 10969 over 1745 frames.
+AlGore_2009-0023668-0025415 according to the most serious problem the united states is one of the two largest emitters on top and a proposal has been to build a lot more complex but we're beginning to see a sea change are the ones that have been tested in the last two years with the green alternatives to perform 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0025415-0027030, best cost 305.509 + 9695.7 = 10001.2 over 1613 frames.
+AlGore_2009-0025415-0027030 however there is a political battle in our country and coal industries and enormous respect for the building for the last hundred years maybe we call which is an oxymoron that image reminded me of something 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0027370-0028949, best cost 386.238 + 9740.62 = 10126.9 over 1577 frames.
+AlGore_2009-0027370-0028949 a white christmas in my home intimacy a billion gallons of course what was that you probably saw on the news this all over the country to sag awards were screened in america this happened around christmas medical industry standard recklessness with us 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0030430-0031168, best cost 131.015 + 4272.01 = 4403.02 over 736 frames.
+AlGore_2009-0030430-0031168 the source of much of the bonus awards amount of markets the mathematical 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0031304-0031979, best cost 98.2264 + 4063.39 = 4161.62 over 673 frames.
+AlGore_2009-0031304-0031979 o'rourke nancy pelosi harry a little uncomfortable 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0031979-0032607, best cost 138.041 + 3783.4 = 3921.44 over 626 frames.
+AlGore_2009-0031979-0032607 so the alliance for climate protection has also put them and this is one of them or one of them 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0032607-0033881, best cost 279.952 + 7739.91 = 8019.86 over 1272 frames.
+AlGore_2009-0032607-0033881 she worried you climate change is a very serious threat on the assumption that we made about three quarters of a large sum of money online advertising efforts to promote and complicated the bottle 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0033881-0034242, best cost 58.2632 + 2101.43 = 2159.7 over 359 frames.
+AlGore_2009-0033881-0034242 but it is crucial to deal with it 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0034336-0034477, best cost 29.9467 + 791.567 = 821.514 over 139 frames.
+AlGore_2009-0034336-0034477 so stay tuned 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0034538-0035003, best cost 74.4954 + 2570.9 = 2645.4 over 463 frames.
+AlGore_2009-0034538-0035003 so don't worry about climate change and these animals 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0035176-0035680, best cost 81.2549 + 3200.89 = 3282.15 over 502 frames.
+AlGore_2009-0035176-0035680 we call it was interested in our political system 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0035977-0036537, best cost 27.0658 + 3633.39 = 3660.46 over 558 frames.
+AlGore_2009-0035977-0036537 this 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0036643-0037401, best cost 17.168 + 5073.47 = 5090.64 over 756 frames.
+AlGore_2009-0036643-0037401 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0037401-0037909, best cost 30.8027 + 3165.7 = 3196.5 over 506 frames.
+AlGore_2009-0037401-0037909 writing 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0037909-0038534, best cost 131.334 + 3877.21 = 4008.54 over 623 frames.
+AlGore_2009-0037909-0038534 finally the possible alternative matches with economic challenge of our national security 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0038534-0039066, best cost 68.2494 + 3117.13 = 3185.38 over 530 frames.
+AlGore_2009-0038534-0039066 his interests host or hostess 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0039066-0039615, best cost 49.465 + 3319.69 = 3369.16 over 547 frames.
+AlGore_2009-0039066-0039615 according to court records 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0039615-0040079, best cost 28.3445 + 2736.16 = 2764.5 over 462 frames.
+AlGore_2009-0039615-0040079 so 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0040079-0040921, best cost 86.5442 + 5154.68 = 5241.22 over 840 frames.
+AlGore_2009-0040079-0040921 the percentage of electricity one in a hundred years 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0040921-0041490, best cost 60.963 + 3349.08 = 3410.04 over 567 frames.
+AlGore_2009-0040921-0041490 reporting the door 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0041490-0041607, best cost 27.0413 + 680.566 = 707.607 over 115 frames.
+AlGore_2009-0041490-0041607 it is worthwhile 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0042315-0043056, best cost 126.439 + 4084.75 = 4211.19 over 739 frames.
+AlGore_2009-0042315-0043056 every town one has wasted fundamental very few scheduling conflict 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0043195-0043622, best cost 64.1312 + 2396.51 = 2460.64 over 425 frames.
+AlGore_2009-0043195-0043622 over here with said in an interview 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0043770-0044092, best cost 50.6333 + 1794.43 = 1845.07 over 320 frames.
+AlGore_2009-0043770-0044092 users industrialized nations 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0044281-0044591, best cost 49.6334 + 1706.36 = 1755.99 over 308 frames.
+AlGore_2009-0044281-0044591 we found an integral 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0044591-0045669, best cost 197.509 + 6470.85 = 6668.36 over 1076 frames.
+AlGore_2009-0044591-0045669 there's an old african proverb that says if you would know what we call it would afford altogether we need to go for quickly 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance AlGore_2009-0045669-0045797, best cost 21.7731 + 707.607 = 729.38 over 126 frames.
+AlGore_2009-0045669-0045797 the government 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0001224-0001955, best cost 179.367 + 4201.73 = 4381.09 over 729 frames.
+BarrySchwartz_2005G-0001224-0001955 talk about them so that in his book of mine that i hope will resonate with other things that you've already heard about china 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0001955-0002689, best cost 142.437 + 4120.47 = 4262.91 over 732 frames.
+BarrySchwartz_2005G-0001955-0002689 making connections myself in case you missed it will start with what i call the official 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0002689-0003874, best cost 242.67 + 6671.4 = 6914.07 over 1183 frames.
+BarrySchwartz_2005G-0002689-0003874 if you don't want efficient all western industrial societies inefficient morons like this if we are interested in maximizing the welfare of our citizens 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0003874-0004912, best cost 187.18 + 5657.72 = 5844.9 over 1036 frames.
+BarrySchwartz_2005G-0003874-0004912 the way to do that is to maximize individual freedom the reason for this is both that freedom is in and of itself 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0004912-0006224, best cost 283.298 + 7367.43 = 7650.73 over 1310 frames.
+BarrySchwartz_2005G-0004912-0006224 daniel worthwhile essential to be human and because of people have freedom that each of us come back tomorrow to do things to maximize welfare workers to decide on their behalf 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0006224-0007545, best cost 233.984 + 7124.61 = 7358.59 over 1319 frames.
+BarrySchwartz_2005G-0006224-0007545 the way to maximize freedom is to maximize towards the more choice people have more freedom they have more freedom they have the will forever 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0007545-0008962, best cost 206.515 + 7632.15 = 7838.66 over 1415 frames.
+BarrySchwartz_2005G-0007545-0008962 this i think is so deeply embedded in the water supply that would encourage anyone depression and it also deeply embedded in our lives 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0008962-0009855, best cost 169.774 + 4931.99 = 5101.77 over 891 frames.
+BarrySchwartz_2005G-0008962-0009855 give you some examples of what modern progress has been made possible for us this is my supermarket but it didn't work 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0009855-0010532, best cost 153.106 + 3883.34 = 4036.45 over 675 frames.
+BarrySchwartz_2005G-0009855-0010532 or assailants were not surprising or seventy five celebrations in a supermarket you don't count 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0010532-0011842, best cost 286.279 + 7493.49 = 7779.77 over 1308 frames.
+BarrySchwartz_2005G-0010532-0011842 but in fact virtual worlds and we'll call centers you combine to make a very large numbers are also addresses the off chance that the other seventy five store has to offer change 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0011842-0012947, best cost 249.517 + 6330.1 = 6579.62 over 1103 frames.
+BarrySchwartz_2005G-0011842-0012947 so this is what the shooter games like many other consumer electronics or senator stereo system speaker cd player tape player rapid fire in this world 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0012947-0013956, best cost 187.417 + 5539.9 = 5727.31 over 1007 frames.
+BarrySchwartz_2005G-0012947-0013956 single consumer electronics store there are that many stresses we can construct six and a half million 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0013956-0015043, best cost 204.847 + 6091.97 = 6296.82 over 1085 frames.
+BarrySchwartz_2005G-0013956-0015043 the french resistance and of course the drama from one story began to watch lists and other domains the world global communications 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0015043-0016393, best cost 294.445 + 7603.67 = 7898.12 over 1348 frames.
+BarrySchwartz_2005G-0015043-0016393 there was a time when i was a boy when you can get any kind of water shortages which came from about your at age forty gigabyte or consequences that by the way is in the form of a broken ankle 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0016393-0017265, best cost 178.666 + 4914.61 = 5093.27 over 870 frames.
+BarrySchwartz_2005G-0016393-0017265 but this time without having to call someone a variety of roles especially the world cellphones you for cellphones in the future 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0017265-0017960, best cost 125.238 + 3971 = 4096.24 over 693 frames.
+BarrySchwartz_2005G-0017265-0017960 but there's more mp three player knows her children properly torch 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0018189-0019251, best cost 250.876 + 6129.26 = 6380.14 over 1060 frames.
+BarrySchwartz_2005G-0018189-0019251 if i suggest you haven't seen any your story that you can rest assured that one day she knew well what is that these people talking to their scores asking this question 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0019251-0020164, best cost 169.039 + 5120.25 = 5289.29 over 911 frames.
+BarrySchwartz_2005G-0019251-0020164 and you know the answer to this question now is the answer is no it's not possible to myself a little bit too much so 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0020164-0021506, best cost 246.81 + 7543.76 = 7790.57 over 1340 frames.
+BarrySchwartz_2005G-0020164-0021506 in other aspects of life in a much more significant than buying things the same sort of choices for healthcare is more education united states thank you 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0021506-0022404, best cost 216.057 + 5150.08 = 5366.13 over 896 frames.
+BarrySchwartz_2005G-0021506-0022404 but the doctrine that tells you what to expect that the doctor to doctor tells you a weekend away we can do the same as these benefits 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0022404-0023325, best cost 159.952 + 5036.54 = 5196.5 over 919 frames.
+BarrySchwartz_2005G-0022404-0023325 any risks because these benefits and risks we wanted to michigan which i do the boxes 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0023325-0024559, best cost 235.697 + 6734.81 = 6970.51 over 1232 frames.
+BarrySchwartz_2005G-0023325-0024559 they have these benefits and risks and because these benefits risks when you what do you say if you worry about what would you do the boxes barack obama 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0024559-0026795, best cost 511.5 + 12961.7 = 13473.2 over 2234 frames.
+BarrySchwartz_2005G-0024559-0026795 and resources we caucasians autonomy which makes it sound like a good thing when religious shifting of government responsible for decision making and somebody you know something wurzelbacher somebody who knows nothing of the culturally sixpences on the best they can be making decisions mainly because of this enormous marketing of prescription drugs 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0026795-0028208, best cost 313.571 + 8104.05 = 8417.62 over 1411 frames.
+BarrySchwartz_2005G-0026795-0028208 people like you and me which if you think about it makes no sense last weekend i know when the market was affected by then the answer is that it's better support for the next morning and ask for politicians to be changed 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0028208-0029108, best cost 155.224 + 4967.66 = 5122.89 over 898 frames.
+BarrySchwartz_2005G-0028208-0029108 something as dramatic as our identity is now become a matter of choice now this slide 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0029108-0030333, best cost 298.041 + 7103.92 = 7401.96 over 1223 frames.
+BarrySchwartz_2005G-0029108-0030333 sexual conduct we get away with her identity we get one that we don't reinvent ourselves as often as we like an amazing every day we wake up in the morning you have to decide what kind of person 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0030333-0030923, best cost 97.3072 + 3230.52 = 3327.83 over 588 frames.
+BarrySchwartz_2005G-0030333-0030923 you will be an encounter with respect to marriage and family 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0030923-0032176, best cost 256.856 + 7083.78 = 7340.64 over 1251 frames.
+BarrySchwartz_2005G-0030923-0032176 there was a time when the false assumption that almost everyone has to be the various initiatives and any strategists initiative but the only real choice was cool 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0032176-0033102, best cost 182.356 + 5272.67 = 5455.02 over 924 frames.
+BarrySchwartz_2005G-0032176-0033102 darwin and that when you do that nowadays everything is very much a tragedy wonderfully intelligence students 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0033102-0034166, best cost 239.406 + 6094.99 = 6334.4 over 1062 frames.
+BarrySchwartz_2005G-0033102-0034166 and so i decided twenty percent was what i used to describe a poster what's worse is that because there was a legend it's because they are preoccupied 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0034166-0034940, best cost 182.208 + 4462.08 = 4644.29 over 772 frames.
+BarrySchwartz_2005G-0034166-0034940 as individuals should i get married or not to get carried out within hours later she might have to search for truth hurts 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0034940-0036185, best cost 265.531 + 7256.82 = 7522.35 over 1243 frames.
+BarrySchwartz_2005G-0034940-0036185 all these are consuming passion and dedication these questions whether or not it means that we all work by simon boccanegra workforce and indeed they should be shared with questions to answer 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0036404-0036516, best cost 17.8955 + 576.478 = 594.374 over 110 frames.
+BarrySchwartz_2005G-0036404-0036516 work 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0036516-0037766, best cost 231.422 + 7038.14 = 7269.56 over 1248 frames.
+BarrySchwartz_2005G-0036516-0037766 we are blessed squirrels pointing out the technology that enables us to work every minute of every day from a place on the planet except the remote control 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0038294-0039241, best cost 226.192 + 5408.49 = 5634.68 over 945 frames.
+BarrySchwartz_2005G-0038294-0039241 there is one quarter by the way the modified by labour you actually rather proudly hiawatha works but i knew that we're using them 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0039241-0040156, best cost 200.895 + 5341.63 = 5542.53 over 913 frames.
+BarrySchwartz_2005G-0039241-0040156 so what this means is incredible freedom of choice reactors that work is that we have to make decisions again and again and again about women 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0040156-0041465, best cost 287.002 + 7631.46 = 7918.46 over 1307 frames.
+BarrySchwartz_2005G-0040156-0041465 we should or shouldn't be working within which are simply shorter than we ever sold for one hundred black bear market there's a laptop personally artworks even the auction off 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0041465-0042097, best cost 136.391 + 3690.12 = 3826.52 over 630 frames.
+BarrySchwartz_2005G-0041465-0042097 every network articulate soccer game we are also ask your social activists 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0042097-0043255, best cost 241.715 + 6669.12 = 6910.83 over 1156 frames.
+BarrySchwartz_2005G-0042097-0043255 so far cautious optimism oceanographers whether anybody asked the question is no external avoid making serious americans are in very different languages 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0043255-0044538, best cost 249.221 + 7289.55 = 7538.77 over 1281 frames.
+BarrySchwartz_2005G-0043255-0044538 so everywhere we look on the basis of small things that are all things a little things like is a matter of choice and will use all of them look like this 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0044742-0045623, best cost 188.969 + 5025.67 = 5214.64 over 879 frames.
+BarrySchwartz_2005G-0044742-0045623 that is to say the word socialism and everything was a matter of choice in the world without leaving looks like this and the question is 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0045623-0046263, best cost 77.3825 + 3390.24 = 3467.62 over 638 frames.
+BarrySchwartz_2005G-0045623-0046263 this is good news bad news and the answer is yes 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0046554-0047602, best cost 200.129 + 5947.42 = 6147.55 over 1046 frames.
+BarrySchwartz_2005G-0046554-0047602 we all know what's good about trying to talk about what they're about all this choice has two facts to begin with executed 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0047602-0048920, best cost 239.666 + 7418.35 = 7658.01 over 1316 frames.
+BarrySchwartz_2005G-0047602-0048920 what effect paradoxically centrifuges promises rather than a brush with so many options to choose from people find it very difficult issues at all 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0048920-0050062, best cost 237.27 + 6458.23 = 6695.5 over 1140 frames.
+BarrySchwartz_2005G-0048920-0050062 i'll give you one very dramatic example of this study that was an overall investment in our voluntary retirement was a colleague of mine got access to 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0050177-0051115, best cost 216.29 + 5407.81 = 5624.1 over 936 frames.
+BarrySchwartz_2005G-0050177-0051115 the best records from before this gigantic often probably about a million employees about two thousand deaths worldwide which he said is that 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0051115-0051894, best cost 152.763 + 4431.78 = 4584.55 over 777 frames.
+BarrySchwartz_2005G-0051115-0051894 for creating mutual funds that were offered with participation went down two percent 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0051894-0054066, best cost 420.737 + 12360.6 = 12781.3 over 2170 frames.
+BarrySchwartz_2005G-0051894-0054066 your fifty pounds ten percent fewer employees participate if you will to fight why because with fifty five stitches chromosome they're hard to decide which one to choose and you just awful tomorrow and tomorrow and tomorrow and tomorrow and tomorrow and of course the participants 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0054066-0055420, best cost 295.823 + 7928.13 = 8223.95 over 1352 frames.
+BarrySchwartz_2005G-0054066-0055420 understand that not only does this mean that you've already got one their party doesn't have enough money to work also means that made the decision so hard to pass up significant economic framing store 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0055420-0056869, best cost 308.701 + 8340.08 = 8648.79 over 1447 frames.
+BarrySchwartz_2005G-0055420-0056869 i'm not participating they're passionate as much as five thousand dollars in your family or what have we better product to process is a consequence of having too many choices anything that makes the world look like this 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0057498-0058253, best cost 169.653 + 4462.39 = 4632.04 over 753 frames.
+BarrySchwartz_2005G-0057498-0058253 you really were made that decision right in detroit rewriting on a pilgrimage to four hundred soldiers 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0058253-0059016, best cost 147.224 + 4383.29 = 4530.52 over 761 frames.
+BarrySchwartz_2005G-0058253-0059016 so within sight of the fact is that even if we manage to overcome the process and make choices 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0059016-0060008, best cost 182.462 + 5608.77 = 5791.23 over 990 frames.
+BarrySchwartz_2005G-0059016-0060008 windows were satisfied with the results of the choice we would be if we have fewer options situation for several reasons 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0060008-0061247, best cost 272.594 + 7205.49 = 7478.08 over 1237 frames.
+BarrySchwartz_2005G-0060008-0061247 one of them is that a lot of difference addresses issues from if you bought one is the perfect antidote to address it is easy to imagine that you could have made a different choice would be better 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0061247-0062516, best cost 233.202 + 7173.53 = 7406.73 over 1267 frames.
+BarrySchwartz_2005G-0061247-0062516 and what happens is this imagine alternative and insecurity decision you make a different structure dissatisfaction you get better decision making it was a decision 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0062516-0063239, best cost 140.263 + 4148.15 = 4288.41 over 721 frames.
+BarrySchwartz_2005G-0062516-0063239 the more options are forty years or write anything at all was disappointed about architecture 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0063239-0064442, best cost 268.055 + 6974.87 = 7242.93 over 1201 frames.
+BarrySchwartz_2005G-0063239-0064442 second what economists call opportunity cost the government the quickest way of talking about how how much over the way in which we find things that is what we compare them to 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0064442-0065375, best cost 193.259 + 5355.41 = 5548.67 over 931 frames.
+BarrySchwartz_2005G-0064442-0065375 well what are lots of alternatives to consider is easy to imagine the attractive features of alternative venue reject 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0065517-0066069, best cost 112.42 + 3116.45 = 3228.87 over 550 frames.
+BarrySchwartz_2005G-0065517-0066069 that maybe you were satisfied with the alternative that shows you some examples 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0066069-0066421, best cost 64.7792 + 1942.01 = 2006.79 over 350 frames.
+BarrySchwartz_2005G-0066069-0066421 for those of you on your side pocket 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0066421-0067741, best cost 292.232 + 7641.14 = 7933.38 over 1318 frames.
+BarrySchwartz_2005G-0066421-0067741 but it was supposed to be thinking irresistible on manhattan's very expensive real estate or just these beautiful they may have lost themselves what could be better well because i think it's august 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0067741-0068445, best cost 149.962 + 4015.15 = 4165.12 over 702 frames.
+BarrySchwartz_2005G-0067741-0068445 everybody in my manhattan neighborhood is the way i can keep working right in front of my goal 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0068445-0069441, best cost 179.562 + 5665.94 = 5845.5 over 994 frames.
+BarrySchwartz_2005G-0068445-0069441 he spent two weeks made by the idea that is missing the opportunity today after they'd have a great purpose 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0069441-0070466, best cost 205.445 + 5917.04 = 6122.49 over 1023 frames.
+BarrySchwartz_2005G-0069441-0070466 opportunity cost structure dissatisfaction with inadequate we choose even when we choose a church and more options are worth considering 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0070466-0071150, best cost 153.628 + 3946.76 = 4100.39 over 682 frames.
+BarrySchwartz_2005G-0070466-0071150 the more attractive features of these options are going to be affected by a starter because his mother said 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0071609-0072731, best cost 261.841 + 6533.71 = 6795.55 over 1120 frames.
+BarrySchwartz_2005G-0071609-0072731 however despite initial appointed exploitable living in the moment as well and probably about giving slowly but when we make sure that whatever you're choosing one opinion 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0072731-0073478, best cost 167.967 + 4329.17 = 4497.14 over 745 frames.
+BarrySchwartz_2005G-0072731-0073478 choosing not to do other things and those are the things that are quite attractive features is the ability to western world 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0073478-0074419, best cost 204.776 + 5381.03 = 5585.8 over 939 frames.
+BarrySchwartz_2005G-0073478-0074419 escalation of expectations basically when i went to replace my cheese sandwich is also time and was twenty seven one flavor 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0074419-0075648, best cost 285.233 + 7161.72 = 7446.95 over 1227 frames.
+BarrySchwartz_2005G-0074419-0075648 the new or anything like that they're incredibly uncomfortable if you were one of the worst of the different things you will pay someone to replace my days after years of use words on one side by side 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0075648-0077665, best cost 433.396 + 11624.1 = 12057.5 over 2015 frames.
+BarrySchwartz_2005G-0075648-0077665 no longer just a sizeable shopkeepers if you want something easy thing to realize that you will acquire shepherds why he was so widespread support you want to stress you can copy what the problem with my jaw dropped after crisis what kind of a new study your car 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0078109-0078372, best cost 50.2899 + 1450.68 = 1500.97 over 261 frames.
+BarrySchwartz_2005G-0078109-0078372 he had no idea what that was 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0078372-0079678, best cost 274.817 + 7481.42 = 7756.24 over 1304 frames.
+BarrySchwartz_2005G-0078372-0079678 so i said well we're trying to always think she said although shorter was the best thing she said whatever and ideas that are always choice made it possible for me to do better 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0079678-0080552, best cost 139.748 + 4871.02 = 5010.77 over 872 frames.
+BarrySchwartz_2005G-0079678-0080552 but i felt which while overall book try to squeeze to myself 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0080992-0082076, best cost 198.578 + 6214.77 = 6413.35 over 1082 frames.
+BarrySchwartz_2005G-0080992-0082076 the reason i felt forces there will always options available my expectations about how to repair changing the way up 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0082076-0083475, best cost 320.473 + 8178.19 = 8498.66 over 1397 frames.
+BarrySchwartz_2005G-0082076-0083475 i had very little to no particular expectations for the weekend when we were working together flavors that a woman should understand why there was good but wasn't perfect and so i compare what i got all excited 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0083475-0084041, best cost 112.929 + 3307.41 = 3420.34 over 564 frames.
+BarrySchwartz_2005G-0083475-0084041 when i was disappointed that wasn't what i expected any options to people's lives 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0084041-0085502, best cost 308.389 + 8535.19 = 8843.58 over 1459 frames.
+BarrySchwartz_2005G-0084041-0085502 it hopes to increase the expectations people have about how those options will be without contributions were satisfied with what results the weather conditions nobody in the world of marketing noses 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0085502-0085781, best cost 35.9317 + 1559.88 = 1595.82 over 277 frames.
+BarrySchwartz_2005G-0085502-0085781 but if they did 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0085781-0086326, best cost 82.8014 + 2999.52 = 3082.32 over 543 frames.
+BarrySchwartz_2005G-0085781-0086326 you will notice about the truth is more like this 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0086674-0087775, best cost 251.57 + 6487.65 = 6739.22 over 1099 frames.
+BarrySchwartz_2005G-0086674-0087775 the reason that everything was better than when everything was worse is that when everything was of course it was actually possible for people to have experienced more pleasant surprise 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0087775-0088887, best cost 239.362 + 6444.57 = 6683.93 over 1110 frames.
+BarrySchwartz_2005G-0087775-0088887 nowadays the world we live in a way that would industrialize citizens with perfection expectation that she can ever hope for is that supposed to be just the ticket 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0088887-0090231, best cost 258.78 + 7644.31 = 7903.09 over 1342 frames.
+BarrySchwartz_2005G-0088887-0090231 you'll never be pleasantly surprised because your expectations were expectations about the group the secret to happiness as we're talking for synthetic happiness is low expectations 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0091167-0092769, best cost 298.67 + 9131.18 = 9429.85 over 1600 frames.
+BarrySchwartz_2005G-0091167-0092769 on stage is one of them will fire at the moment that i actually went to hawaii and which is really quite wonderful i could have done better in itself but so is the most vexing problem 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0092769-0094116, best cost 278.215 + 7907.21 = 8185.42 over 1345 frames.
+BarrySchwartz_2005G-0092769-0094116 one consequence of the idea that encourages when there's only one kind of like is that when you were dissatisfied was widely as possible this rescue the world's richest what would you do 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0094116-0095401, best cost 262.86 + 7364.92 = 7627.78 over 1283 frames.
+BarrySchwartz_2005G-0094116-0095401 when there are hundreds of diversity is available and you by one that's disappointing u.s. wireless as possible is equally if we are to be asked the question is you 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0095401-0096794, best cost 288.962 + 8050.92 = 8339.89 over 1391 frames.
+BarrySchwartz_2005G-0095401-0096794 you could have done better with about one hundred different ideas on display there's no excuse for failure and so when people make decisions and even more voters also decisions for what they feel disappointed 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0096794-0099151, best cost 511.862 + 13700.6 = 14212.4 over 2355 frames.
+BarrySchwartz_2005G-0096794-0099151 a battle between themselves clinical depression has exploded in industry worldwide generation everyday significant calculated a significant contributor to this explosion of depression also suicide is that people have experienced as disappointing as educators is alive and then what happens when the disgraced themselves they think they are at fault 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0099151-0099870, best cost 150.409 + 4047.09 = 4197.5 over 717 frames.
+BarrySchwartz_2005G-0099151-0099870 and so the net result is that we do better temple in general objectively we feel worse 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0099870-0100615, best cost 117.812 + 4122.91 = 4240.72 over 743 frames.
+BarrySchwartz_2005G-0099870-0100615 so let me remind you this is essential for what we all tend to be true 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0100615-0101431, best cost 129.794 + 4427.47 = 4557.26 over 814 frames.
+BarrySchwartz_2005G-0100615-0101431 it all falls is not true there's no question that some choices entertainment 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0101431-0102631, best cost 266.778 + 6909.86 = 7176.64 over 1198 frames.
+BarrySchwartz_2005G-0101431-0102631 but that doesn't format and more choices better than some chose this a medical marijuana is utterly confident that we have long since passed the point where options improve 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0102631-0103651, best cost 185.397 + 5732.82 = 5918.22 over 1018 frames.
+BarrySchwartz_2005G-0102631-0103651 well for now is a policy marathon policy matters thing to think about is what enables all this choice 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0103651-0104500, best cost 162.071 + 4773.82 = 4935.89 over 847 frames.
+BarrySchwartz_2005G-0103651-0104500 the biggest societies is that your levels there are lots of places in the world record of several of them 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0104500-0105476, best cost 211.067 + 5704.47 = 5915.54 over 974 frames.
+BarrySchwartz_2005G-0104500-0105476 well the problem is not to get much worse their problems that they have trouble so this i'm talking about is the peculiar problem either 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0105483-0106567, best cost 213.874 + 6177.6 = 6391.48 over 1082 frames.
+BarrySchwartz_2005G-0105483-0106567 at ford western societies was so frustrated during these things they will talk yesterday about how expensive and difficult ones so 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0106690-0107078, best cost 60.1629 + 2140.44 = 2200.61 over 386 frames.
+BarrySchwartz_2005G-0106690-0107078 his constituency both hope 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0107078-0108308, best cost 244.655 + 7044.94 = 7289.6 over 1228 frames.
+BarrySchwartz_2005G-0107078-0108308 it's a waste of money what i'm telling you is that these expensive complicated choices is not simply the tabletop that we heard that we may get worse 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0108308-0109445, best cost 230.375 + 6437.48 = 6667.86 over 1135 frames.
+BarrySchwartz_2005G-0108308-0109445 or if someone makes people in our societies today on the choices we make more shifted to societies in which people have too few options 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0109445-0110503, best cost 230.151 + 6255 = 6485.15 over 1056 frames.
+BarrySchwartz_2005G-0109445-0110503 now one of those people i speak truth to power could be improved also is what economists call prego turned into income redistribution can make everyone 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0110503-0111279, best cost 121.889 + 4360.32 = 4482.21 over 774 frames.
+BarrySchwartz_2005G-0110503-0111279 there was just work because of the whole structure which is so to conclude 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0111279-0112192, best cost 180.772 + 5167.34 = 5348.11 over 911 frames.
+BarrySchwartz_2005G-0111279-0112192 this country is cartoon today's sophisticated person say what is essential to know that it is possible that before 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0112295-0113151, best cost 200.103 + 4952.78 = 5152.88 over 854 frames.
+BarrySchwartz_2005G-0112295-0113151 of course imagination myopic view the world that's where the first with obama however the more i came to the view that is 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0113151-0114308, best cost 214.541 + 6486.58 = 6701.12 over 1155 frames.
+BarrySchwartz_2005G-0113151-0114308 this notion that the truth of the matter is that if you share a fishbowl so that anything is possible you have freedom you have grounds 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0114308-0115008, best cost 130.053 + 3887.87 = 4017.93 over 698 frames.
+BarrySchwartz_2005G-0114308-0115008 if you share this is also that everything is possible you decrease satisfaction 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0115008-0115842, best cost 177.732 + 4746.46 = 4924.19 over 832 frames.
+BarrySchwartz_2005G-0115008-0115842 you increase paralysis and decrease satisfaction everybody's official this one is culturally two women 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BarrySchwartz_2005G-0115842-0116905, best cost 218.945 + 6090.55 = 6309.5 over 1061 frames.
+BarrySchwartz_2005G-0115842-0116905 perhaps even further fish germany france and the absence of some of the forty fourth recipe for misery and i suspect that thank you very much 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0001220-0001572, best cost 64.0249 + 1960.19 = 2024.21 over 350 frames.
+BlaiseAguerayArcas_2007-0001220-0001572 especially for services to san francisco 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0001572-0002425, best cost 181.553 + 4901.41 = 5082.97 over 851 frames.
+BlaiseAguerayArcas_2007-0001572-0002425 this is the foundation for science and technology developed microscopes proposition opens up your goals are busy secreting 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0002425-0004061, best cost 339.264 + 9352.09 = 9691.36 over 1634 frames.
+BlaiseAguerayArcas_2007-0002425-0004061 and it's in partnership environment we are more interactive vast amounts of the virtual world in many many gigabytes of competition photosynthesis in seamlessly into the criticism in an interesting ratio between us and them 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0004061-0005460, best cost 293.229 + 7993.23 = 8286.46 over 1397 frames.
+BlaiseAguerayArcas_2007-0004061-0005460 it doesn't matter how much information with all these discussions are or how these images are animals that are very difficult for citizen is of course a self-employed recovers and southern africa but his life 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0005460-0006285, best cost 180.762 + 4754.19 = 4934.95 over 823 frames.
+BlaiseAguerayArcas_2007-0005460-0006285 but that doesn't make any difference because you from the bottom of the performances like this one is markets are screened at any given moment 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0006285-0007452, best cost 220.446 + 6556.7 = 6777.14 over 1165 frames.
+BlaiseAguerayArcas_2007-0006285-0007452 but it also reflects architecture those differences example phenomenon and that the system because what happens every american visitors chapter 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0007452-0008335, best cost 184.869 + 5003.77 = 5188.64 over 881 frames.
+BlaiseAguerayArcas_2007-0007452-0008335 and those two students that respects not intimidating something like so utterly shows the organization that participated 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0008335-0009847, best cost 328.867 + 8655.5 = 8984.37 over 1510 frames.
+BlaiseAguerayArcas_2007-0008335-0009847 the musical artificially sweetened you know the development of this isn't always the case as much as the guardian every important is the beginning of a section of his legacy and enjoying the experience of beauty and appropriate for sharapova 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0009847-0010886, best cost 208.233 + 5882.93 = 6091.16 over 1037 frames.
+BlaiseAguerayArcas_2007-0009847-0010886 the magazine or newspaper was incredibly stupid medium possible something with a quarter of those particular issues regarding the mediterranean 
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0010886-0012134, best cost 238.302 + 7102.65 = 7340.96 over 1246 frames.
+BlaiseAguerayArcas_2007-0010886-0012134 this requires you to go ahead and what's going on here and we intend to continue the significance of this forty years or older also or even the institutions 
+
+gzip: gmm_recog/lat.1.gz: unexpected end of file
+ERROR: VectorFst::Read: read failed: <unspecified>
+WARNING (lattice-scale:ReadCompactLattice():kaldi-lattice.cc:351) Error reading compact lattice (after reading header).
+WARNING (lattice-scale:Next():util/kaldi-table-inl.h:574) Object read failed, reading archive 'gunzip -c gmm_recog/lat.*.gz|'
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 164 lattices.
+WARNING (lattice-scale:Close():kaldi-io.cc:501) Pipe gunzip -c gmm_recog/lat.*.gz| had nonzero return status 256
+ERROR (lattice-scale:~SequentialTableReaderArchiveImpl():util/kaldi-table-inl.h:678) TableReader: error detected closing archive 'gunzip -c gmm_recog/lat.*.gz|'
+
+[ Stack-Trace: ]
+lattice-scale() [0x67967a]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::SequentialTableReaderArchiveImpl<kaldi::CompactLatticeHolder>::~SequentialTableReaderArchiveImpl()
+kaldi::SequentialTableReaderArchiveImpl<kaldi::CompactLatticeHolder>::~SequentialTableReaderArchiveImpl()
+kaldi::SequentialTableReader<kaldi::CompactLatticeHolder>::~SequentialTableReader()
+main
+__libc_start_main
+lattice-scale() [0x5927c9]
+
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0012134-0013412, best cost 245.797 + 7253.4 = 7499.2 over 1276 frames.
+BlaiseAguerayArcas_2007-0012134-0013412 and as soon as we get to decide who supposedly doing away with all those limits on one zero zero one season a moral philosopher wrote about the nursing home 
+LOG (lattice-add-penalty:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 164 lattices.
+LOG (lattice-best-path:main():lattice-best-path.cc:99) For utterance BlaiseAguerayArcas_2007-0013412-0014299, best cost 204.64 + 5230.98 = 5435.62 over 885 frames.
+BlaiseAguerayArcas_2007-0013412-0014299 of course that is one of the strongest applications and stuart weitzman is alive in the sense that i wanted to say that what happens but as soon as well 
+LOG (lattice-best-path:main():lattice-best-path.cc:124) Overall cost per frame is 5.98861 = 0.202387 [graph] + 5.78622 [acoustic] over 162327 frames.
+LOG (lattice-best-path:main():lattice-best-path.cc:128) Done 164 lattices, failed for 0
+# Accounting: time=187 threads=1
+# Ended (code 0) at Mon Dec  5 17:13:07 EET 2016, elapsed time 187 seconds

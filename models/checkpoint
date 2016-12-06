@@ -1,0 +1,2 @@
+model_checkpoint_path: "/u/95/manteca1/unix/env_tensorflow/dnn-asr-group/models/model_4layers.ckpt"
+all_model_checkpoint_paths: "/u/95/manteca1/unix/env_tensorflow/dnn-asr-group/models/model_4layers.ckpt"

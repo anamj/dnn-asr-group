@@ -1,0 +1,6 @@
+# compute-wer-bootci --mode=present ark:gmm_recog/scoring_kaldi/test_filt.txt ark:gmm_recog/scoring_kaldi/penalty_0.0/8.txt > gmm_recog/scoring_kaldi/wer_details/wer_bootci 
+# Started at Mon Dec  5 17:13:47 EET 2016
+#
+compute-wer-bootci --mode=present ark:gmm_recog/scoring_kaldi/test_filt.txt ark:gmm_recog/scoring_kaldi/penalty_0.0/8.txt 
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Dec  5 17:13:47 EET 2016, elapsed time 0 seconds

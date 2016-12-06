@@ -1,0 +1,60 @@
+# cat gmm_recog/scoring_kaldi/penalty_0.0/8.txt | align-text --special-symbol='***' ark:gmm_recog/scoring_kaldi/test_filt.txt ark:- ark,t:- | utils/scoring/wer_per_utt_details.pl --special-symbol '***' | tee gmm_recog/scoring_kaldi/wer_details/per_utt | utils/scoring/wer_per_spk_details.pl dev_2/utt2spk > gmm_recog/scoring_kaldi/wer_details/per_spk 
+# Started at Mon Dec  5 17:13:47 EET 2016
+#
+align-text '--special-symbol=***' ark:gmm_recog/scoring_kaldi/test_filt.txt ark:- ark,t:- 
+WARNING (align-text:main():align-text.cc:86) Key BlaiseAguerayArcas_2007-0018272-0019697 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key BlaiseAguerayArcas_2007-0029457-0029856 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key BlaiseAguerayArcas_2007-0038071-0038867 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key BlaiseAguerayArcas_2007-0041420-0041924 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key BrianCox_2009U-0001316-0002336 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key BrianCox_2009U-0009054-0010347 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key BrianCox_2009U-0017422-0019378 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0001566-0003143 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0009425-0010453 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0018916-0019962 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0025927-0027295 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0035697-0037646 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0042736-0044886 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0052819-0054403 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0062453-0063267 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0069935-0071011 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0077996-0079101 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0088800-0089132 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key CraigVenter_2008-0090711-0091286 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key DavidMerrill_2009-0001148-0002562 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key DavidMerrill_2009-0010729-0011659 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key DavidMerrill_2009-0021216-0021563 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key DavidMerrill_2009-0030464-0031572 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0001280-0002715 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0011233-0011564 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0018718-0020202 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0026962-0028749 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0036273-0037578 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0044882-0045575 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0053607-0054348 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0061061-0062915 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0071604-0073114 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0081176-0081847 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0088499-0090524 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0097660-0099526 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0106099-0108280 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key ElizabethGilbert_2009-0111240-0112572 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0001251-0003452 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0009022-0009881 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0019241-0021422 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0027861-0028558 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0036073-0038778 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0046338-0047422 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0053944-0056945 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0063917-0065973 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0071736-0073158 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0080643-0083271 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0088524-0090661 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0098613-0099166 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0105433-0106921 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0114978-0115664 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0123088-0124224 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+WARNING (align-text:main():align-text.cc:86) Key WadeDavis_2003-0126654-0127480 is in ark:gmm_recog/scoring_kaldi/test_filt.txt, but not in ark:-
+LOG (align-text:main():align-text.cc:131) Done 22 sentences, failed for 53
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Dec  5 17:13:47 EET 2016, elapsed time 0 seconds

@@ -56,7 +56,8 @@ def main():
     result_dimension=trainLabel.shape[1]
     
     out= ""
-    layers = [50,100,200,300,400,500,600,700]
+    #layers = [50,100,200,300,400,500,600,700]
+    layers = [300]
 
     results=[]
 
@@ -86,7 +87,7 @@ def main():
                 sess.run(init_op)
                 batch_size=1000
                 number_of_batch=len(trainData)//batch_size
-                number_of_epoch=2
+                number_of_epoch=1
 
                 for epoch in range(number_of_epoch):
                     #no shuffle currently
@@ -110,6 +111,8 @@ def main():
                     x_number_of_epoch.append(epoch)
                     
                 results.append(array_validation_accuracy)
+                Save=tf.train.Saver()
+                Save.save(sess, "/u/95/manteca1/unix/env_tensorflow/dnn-asr-group/models/model_4layers.ckpt")
 
     #Plot
     test_fig = plt.figure()
